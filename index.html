@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Private cloud op eigen hardware, in Europa — Kavyan</title>
+<meta name="description" content="Je bestanden, documenten en backups op een server die je zelf bezit, in Europa, op NixOS. Geen Amerikaanse cloudwet, geen abonnement dat elk jaar duurder wordt. Vaste prijs.">
+<link rel="canonical" href="https://kavyan.eu/">
+<link rel="alternate" hreflang="nl" href="https://kavyan.eu/">
+<link rel="alternate" hreflang="en" href="https://kavyan.eu/en/">
+<link rel="alternate" hreflang="x-default" href="https://kavyan.eu/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kavyan — private cloud op eigen hardware, in Europa">
+<meta property="og:description" content="Je data op een server die je zelf bezit, in Europa, op NixOS. Vaste prijs, geen abonnementsval.">
+<meta property="og:url" content="https://kavyan.eu/">
+<meta property="og:locale" content="nl_BE">
+<meta name="theme-color" content="#070b10">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Kavyan",
+  "url": "https://kavyan.eu/",
+  "email": "hello@kavyan.eu",
+  "areaServed": "BE",
+  "description": "Private cloud op eigen hardware voor bedrijven, gebouwd op NixOS. Bestanden, documenten, backups en wachtwoorden in eigen beheer, binnen Europa.",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "De Grote Vriendelijke Firma VOF",
+    "vatID": "BE0650901969",
+    "address": { "@type": "PostalAddress", "addressLocality": "Schoten", "addressCountry": "BE" }
+  }
+}
+</script>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="logo" href="/">kavyan<b>.</b></a>
+    <nav class="nav">
+      <a href="#waarom">Waarom</a>
+      <a href="#wat">Wat je krijgt</a>
+      <a href="#nixos">NixOS</a>
+      <a href="#prijzen">Prijzen</a>
+      <a href="#faq">FAQ</a>
+      <a class="lang" href="/en/" hreflang="en">EN</a>
+      <a class="btn btn-primary btn-sm" href="#contact">Plan een gesprek</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Private cloud voor Europese bedrijven</p>
+      <h1>Je data staat op iemand anders zijn computer. <em>Meestal in Virginia.</em></h1>
+      <p class="lede">Bestanden, documenten, backups, wachtwoorden — bij de meeste bedrijven staat dat op servers van een Amerikaans bedrijf. Dat werkt prima, tot het politiek wordt. Ik bouw je een private cloud op eigen hardware, in Europa, op NixOS: dezelfde functies, alleen ben jij de eigenaar.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#contact">Plan een gratis gesprek</a>
+        <a class="btn btn-ghost" href="#wat">Bekijk wat erop draait</a>
+      </div>
+      <p class="hero-note">Vaste prijs voor de bouw. Daarna alleen je eigen hosting — geen licentie per gebruiker.</p>
+    </div>
+
+    <aside class="hero-aside graph-wrap">
+      <canvas id="globe" aria-hidden="true"></canvas>
+      <div class="graph-caption">
+        <b>Jouw data, binnen jouw rechtsgebied.</b>
+        <span>hardware → schijfversleuteling → Europese jurisdictie</span>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section-line" id="waarom">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow"><span class="num">01</span> &nbsp;Waarom nu</p>
+      <h2>Dit gaat niet over privacy. Het gaat over wie de stekker vasthoudt.</h2>
+      <p>Ik ben geen doemdenker en dit is geen complotverhaal. Maar er zijn een paar feiten die je gewoon moet weten voor je je hele bedrijf op één leverancier zet.</p>
+    </div>
+    <div class="pain">
+      <div>
+        <h3>De CLOUD Act geldt ook hier</h3>
+        <p>Een Amerikaanse wet uit 2018 verplicht Amerikaanse bedrijven om data te overhandigen aan Amerikaanse autoriteiten, ook als die data in een Europees datacenter staat. Waar de server fysiek staat, doet er dus minder toe dan wie hem bezit.</p>
+      </div>
+      <div>
+        <h3>Toegang kan wegvallen buiten je schuld</h3>
+        <p>Sancties, exportbeperkingen en beleidswijzigingen zijn geen theorie meer. Je hoeft niets verkeerd te doen om er last van te hebben — je moet alleen aan de verkeerde kant van een lijn staan die iemand anders trekt.</p>
+      </div>
+      <div>
+        <h3>De prijs is niet meer de prijs</h3>
+        <p>Per gebruiker, per maand, per feature. Cloudabonnementen gaan zelden naar beneden, en migreren wordt duurder naarmate je er langer in zit. Dat is geen ongeluk, dat is het verdienmodel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-line" id="wat">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow"><span class="num">02</span> &nbsp;Wat je krijgt</p>
+      <h2>Alles wat je nu bij een abonnement afneemt, op je eigen server.</h2>
+      <p>Dit is geen uitgeklede versie. Het is dezelfde functionaliteit, met open software die al jaren volwassen is en door duizenden bedrijven gebruikt wordt.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <h3>Bestanden &amp; samenwerking</h3>
+        <p>Gedeelde mappen, synchronisatie op laptop en gsm, links delen met klanten, versiegeschiedenis. Werkt zoals je het gewend bent, ook offline.</p>
+      </div>
+      <div class="step">
+        <h3>Documentbeheer</h3>
+        <p>Facturen en contracten binnen laten komen, automatisch tekst herkennen en doorzoekbaar maken, en terugvinden op datum, klant of bedrag. Papier gaat erin, orde komt eruit.</p>
+      </div>
+      <div class="step">
+        <h3>Wachtwoorden voor het team</h3>
+        <p>Eén kluis voor het bedrijf, met wie-mag-wat per map. Stopt de gedeelde Excel en de wachtwoorden die per WhatsApp rondgaan.</p>
+      </div>
+      <div class="step">
+        <h3>Backups die getest zijn</h3>
+        <p>Versleutelde backups naar een tweede locatie, automatisch. En — belangrijker — een teruggezette proefkopie, zodat je wéét dat het werkt in plaats van het te hopen.</p>
+      </div>
+      <div class="step">
+        <h3>Toegang van buitenaf</h3>
+        <p>Een privénetwerk tussen je toestellen in plaats van poorten openzetten op het internet. Thuiswerken zonder dat je server publiek benaderbaar is.</p>
+      </div>
+      <div class="step">
+        <h3>Foto- en media-archief</h3>
+        <p>Voor wie met beeld werkt: een doorzoekbaar archief met gezichts- en objectherkenning die lokaal draait, zonder dat je beelden een extern bedrijf passeren.</p>
+      </div>
+    </div>
+    <p class="price-note">Je kiest wat je nodig hebt. Niemand heeft alles nodig, en ik reken je niets aan voor wat je niet gebruikt.</p>
+  </div>
+</section>
+
+<section class="section-line" id="nixos">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow"><span class="num">03</span> &nbsp;De techniek</p>
+      <h2>Waarom NixOS, en waarom dat jou iets uitmaakt.</h2>
+      <p>De meeste zelfgebouwde servers worden na twee jaar een mysterie: niemand weet nog precies wat erop staat of waarom het werkt. NixOS lost dat structureel op, en dat is de reden dat ik erop bouw.</p>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <h3>De server staat volledig in één tekstbestand</h3>
+        <p>Elke instelling, elk programma, elke gebruiker: het staat in configuratie die je kan lezen, versiebeheren en aan je boekhouder of auditor tonen. Er zijn geen handmatige aanpassingen die alleen in iemands hoofd zitten.</p>
+      </div>
+      <div class="track">
+        <h3>Een update terugdraaien duurt één herstart</h3>
+        <p>Gaat een update mis, dan kies je bij het opstarten de vorige versie en draai je weer. Op gewone servers is dat een avond werk; hier is het een keuze in een menu.</p>
+      </div>
+      <div class="track">
+        <h3>Brandt de server af, dan bouw ik hem terug</h3>
+        <p>Uit datzelfde bestand rolt exact dezelfde server op nieuwe hardware. Je backups zijn dan alleen nog nodig voor je data, niet om te reconstrueren hoe het ook alweer in elkaar zat.</p>
+      </div>
+      <div class="track">
+        <h3>Geen leverancier die je vastzet</h3>
+        <p>Alles is open software. Wil je morgen met iemand anders verder, dan geef je die persoon de configuratie en de sleutels. Er is geen contract dat je data gijzelt.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-line" id="aanpak">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow"><span class="num">04</span> &nbsp;Aanpak</p>
+      <h2>Van gesprek tot draaiende server, zonder dat je een dag stilvalt.</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <h3><span class="num">1</span> Gesprek</h3>
+        <p>Een half uur. Wat gebruik je nu, wat kost het, en waar zit je vast? Als zelf hosten voor jou geen goed idee is, zeg ik dat hier — dan bespaar ik je een offerte.</p>
+      </div>
+      <div class="step">
+        <h3><span class="num">2</span> Plan en prijs</h3>
+        <p>Ik zet op papier welke hardware, welke diensten, waar hij komt te staan en wat het kost. Vaste prijs, en je weet wat je maandelijkse kosten worden voor je tekent.</p>
+      </div>
+      <div class="step">
+        <h3><span class="num">3</span> Bouw en migratie</h3>
+        <p>Ik bouw hem op, zet je data over en laat beide systemen een tijd naast elkaar draaien. Pas als alles klopt, zetten we het oude af.</p>
+      </div>
+      <div class="step">
+        <h3><span class="num">4</span> Overdracht</h3>
+        <p>Je krijgt de sleutels, de configuratie en documentatie in gewone taal. Plus een testherstel van je backup waar je bij zit, zodat je het één keer met eigen ogen gezien hebt.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-line" id="prijzen">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow"><span class="num">05</span> &nbsp;Prijzen</p>
+      <h2>Vaste pakketten. Geen uurtarief, geen prijs per gebruiker.</h2>
+      <p>Je betaalt één keer voor de bouw. Daarna betaal je alleen je eigen hardware of hosting — aan mij ben je niets verplicht.</p>
+    </div>
+
+    <div class="price-group">
+      <div class="price-row">
+        <div class="name">Soevereiniteitsscan<span>Instap</span></div>
+        <div class="what">Ik breng in kaart waar je data nu staat, <b>onder welke wetgeving ze valt</b>, wat je vandaag betaalt en wat een eigen opzet zou kosten. Je krijgt een rapport en een advies — ook als dat advies is om te blijven waar je zit.</div>
+        <div class="amt">€1.450<small>excl. btw</small></div>
+      </div>
+      <div class="price-row feature">
+        <div class="name">Private Cloud — Basis<span>Meest gekozen</span></div>
+        <div class="what">Eén server, tot ongeveer tien gebruikers. Bestanden, documentbeheer, wachtwoordkluis, <b>versleutelde backups naar een tweede locatie</b> en beveiligde toegang van buitenaf. Inclusief migratie van je huidige data en overdracht.</div>
+        <div class="amt">€7.500<small>excl. btw, excl. hardware</small></div>
+      </div>
+      <div class="price-row">
+        <div class="name">Private Cloud — Uitgebreid<span>Grotere teams</span></div>
+        <div class="what">Voor wie geen onderbreking kan hebben: <b>twee locaties</b>, automatische wisselwerking bij uitval, koppelingen met je bestaande software en een uitgebreider testherstel.</div>
+        <div class="amt">vanaf €14.500<small>excl. btw, op maat</small></div>
+      </div>
+      <div class="price-row">
+        <div class="name">Onderhoud<span>Optioneel</span></div>
+        <div class="what">Updates, bewaking, backupcontroles en <b>een testherstel per kwartaal</b>. Je kan het ook zelf doen — de documentatie is daarvoor gemaakt.</div>
+        <div class="amt">€295<small>per maand, excl. btw</small></div>
+      </div>
+    </div>
+
+    <p class="price-note">Alle bedragen excl. btw. Hardware koop je zelf, op mijn advies — ik reken er geen marge op. Reken op € 1.500 tot € 4.000 afhankelijk van je opslagbehoefte, of maandelijkse huur als je liever niets in huis zet.</p>
+  </div>
+</section>
+
+<section class="section-line" id="eerlijk">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow"><span class="num">06</span> &nbsp;Eerlijk gezegd</p>
+      <h2>Wanneer dit een slecht idee is.</h2>
+      <p>Ik verkoop dit liever niet aan iemand die er spijt van krijgt, dus hier staat het gewoon.</p>
+    </div>
+    <div class="pain">
+      <div>
+        <h3>Als niemand bij jullie techniek wil aanraken</h3>
+        <p>Een eigen server vraagt af en toe aandacht. Met een onderhoudscontract neem ik dat over, maar wil je écht nergens naar omkijken, dan is een Europese cloudleverancier eerlijker gezegd de betere keuze.</p>
+      </div>
+      <div>
+        <h3>Als je vastzit aan software die alleen in hun cloud draait</h3>
+        <p>Draait je hele bedrijf op één pakket dat niet buiten die omgeving kan, dan verplaats je het probleem in plaats van het op te lossen. Dat zoeken we uit in de scan, voor je iets uitgeeft.</p>
+      </div>
+      <div>
+        <h3>Als je met minder dan drie mensen bent</h3>
+        <p>Dan haal je de kosten er zelden uit. Voor een eenmanszaak is een goede Europese aanbieder plus degelijke backups meestal verstandiger dan eigen hardware.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-line" id="faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow"><span class="num">07</span> &nbsp;Vragen</p>
+      <h2>Wat mensen meestal vragen.</h2>
+    </div>
+    <div class="faq">
+      <div>
+        <h3>Wat als de server kapotgaat?</h3>
+        <p>Schijven gaan altijd in paren of meer, dus één defecte schijf legt niets stil. Je backups staan op een tweede locatie. En omdat de hele opzet in configuratie vastligt, staat er op nieuwe hardware binnen een dag weer exact hetzelfde te draaien.</p>
+      </div>
+      <div>
+        <h3>Waar staat die server dan?</h3>
+        <p>Waar jij wil. Bij jou op kantoor, of in een Europees datacenter bij een Europese aanbieder. Bij dat laatste huur je de machine, maar blijven de sleutels van jou — de hoster kan niet in je data.</p>
+      </div>
+      <div>
+        <h3>Ben ik dan van jou afhankelijk in plaats van van Microsoft?</h3>
+        <p>Een terechte vraag. Daarom krijg je alles mee: sleutels, configuratie en documentatie. Elke beheerder die met Linux overweg kan, kan het overnemen. Ik wil dat je blijft omdat het bevalt, niet omdat je vastzit.</p>
+      </div>
+      <div>
+        <h3>Is dit legaal in orde qua GDPR?</h3>
+        <p>Data die je in eigen beheer houdt binnen de EU maakt het aantoonbaar eenvoudiger — je hebt geen doorgifte naar derde landen te verantwoorden. Ik lever de technische kant en de documentatie ervan. Voor je verwerkingsregister en juridische teksten heb je nog altijd een jurist nodig; ik ben er geen.</p>
+      </div>
+      <div>
+        <h3>Hoe lang duurt het?</h3>
+        <p>Een scan is een week. Een basisopzet reken ik op drie tot vier weken van akkoord tot draaiend, waarvan het grootste deel migratie en meedraaien is. Je oude systeem blijft al die tijd werken.</p>
+      </div>
+      <div>
+        <h3>En als jij morgen onder een bus loopt?</h3>
+        <p>Dan draait je server gewoon door — er is geen dienst van mij die hem in de lucht houdt. De configuratie staat bij jou, in gewone leesbare bestanden. Dat is precies waarom ik het zo bouw.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-line" id="contact">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow"><span class="num">08</span> &nbsp;Contact</p>
+      <h2>Vertel me waar je data nu staat.</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-side">
+        <p>Een half uur, kost niets, en je zit nergens aan vast. Je vertelt wat je nu gebruikt, ik zeg of een eigen opzet zinnig is. Vaak is het antwoord genuanceerder dan "alles zelf hosten" — dan hoor je dat ook.</p>
+        <div class="direct">
+          <a href="mailto:hello@kavyan.eu">hello@kavyan.eu</a>
+        </div>
+        <p class="meta">
+          De Grote Vriendelijke Firma VOF<br>
+          Schoten, België<br>
+          BTW BE 0650.901.969
+        </p>
+      </div>
+
+      <form action="https://formspree.io/f/FORMSPREE_ID" method="POST">
+        <div class="field-row">
+          <div class="field">
+            <label for="naam">Naam</label>
+            <input id="naam" name="naam" type="text" required autocomplete="name" placeholder="Jouw naam">
+          </div>
+          <div class="field">
+            <label for="bedrijf">Bedrijf</label>
+            <input id="bedrijf" name="bedrijf" type="text" autocomplete="organization" placeholder="Optioneel">
+          </div>
+        </div>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required autocomplete="email" placeholder="jij@bedrijf.be">
+        </div>
+        <div class="field">
+          <label for="interesse">Waarin ben je geïnteresseerd?</label>
+          <select id="interesse" name="interesse">
+            <option>Nog niet zeker — eerst een gesprek</option>
+            <option>Soevereiniteitsscan (€1.450)</option>
+            <option>Private Cloud — Basis (€7.500)</option>
+            <option>Private Cloud — Uitgebreid (vanaf €14.500)</option>
+            <option>Onderhoud (€295/maand)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="bericht">Wat gebruik je nu?</label>
+          <textarea id="bericht" name="bericht" required placeholder="Bijvoorbeeld: Microsoft 365 met 12 gebruikers, en een NAS op kantoor voor de grote bestanden."></textarea>
+        </div>
+        <input type="hidden" name="_subject" value="Nieuwe aanvraag via kavyan.eu">
+        <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn btn-primary" type="submit">Versturen — je hoort binnen één werkdag van mij</button>
+        <p class="form-foot">Ik gebruik je gegevens enkel om te antwoorden. Geen nieuwsbrief, geen doorverkoop, geen opvolgmails tot je er zelf om vraagt.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Waar staat jouw data volgend jaar?</h2>
+    <a class="btn btn-primary" href="#contact">Plan een gratis gesprek</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p>© 2026 De Grote Vriendelijke Firma VOF · BTW BE 0650.901.969 · Schoten, België</p>
+    <div class="foot-links">
+      <a href="mailto:hello@kavyan.eu">hello@kavyan.eu</a>
+      <a href="/en/" hreflang="en">English</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/sovereign-globe.js" defer></script>
+</body>
+</html>
