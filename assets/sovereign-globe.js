@@ -109,7 +109,7 @@
     for (var j = 0; j < vis.length; j++) {
       var v = vis[j];
       var fade = 0.35 + v.z * 0.65;                    // achteraan doffer
-      var r = (v.eu ? 3.0 : 2.0) * v.k;
+      var r = (v.eu ? 3.2 : 2.2) * v.k;
       if (v.eu) {
         // Zachte gloed rond Europese knopen
         var g = ctx.createRadialGradient(v.x, v.y, 0, v.x, v.y, r * 5);
@@ -119,7 +119,7 @@
         ctx.beginPath(); ctx.arc(v.x, v.y, r * 5, 0, Math.PI * 2); ctx.fill();
         ctx.fillStyle = 'rgba(124,192,255,' + fade + ')';
       } else {
-        ctx.fillStyle = 'rgba(140,160,180,' + (0.30 * fade) + ')';
+        ctx.fillStyle = 'rgba(150,170,190,' + (0.52 * fade) + ')';
       }
       ctx.beginPath(); ctx.arc(v.x, v.y, r, 0, Math.PI * 2); ctx.fill();
     }
